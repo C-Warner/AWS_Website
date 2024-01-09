@@ -7,36 +7,105 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 --->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Page Title</title>
+    <!-- Other head elements like CSS links -->
 
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!-- Your HTML content -->
 
-
-
-
+    <!-- Your custom jQuery script -->
+    <script>
+        $(document).ready(function() {
+            // ... your jQuery code ...
+        });
+    </script>
+</body>
+</html>
 
 
 <div class="frontPage">
-  <!-----My Version of title page---------->
+  <!-- My Version of title page -->
 
-  <div class="frontPage">
-    <!--TITLE-->
-    <div class="titleBox">
-      <img src="https://i.imgur.com/ysfaprF.png" />
-      <p>Learning Everything Tech</p>
-    </div>
+  <!-- TITLE -->
+  <div class="titleBox">
+    <img src="https://i.imgur.com/ysfaprF.png" />
+    <p>Learning Everything Tech</p>
+  </div>
 
-      <!--------- Selectors -------------------->
-    <div class="selectors">
+  <!-- Selectors -->
+  <div class="selectors">
     <div class="about">
       <p><i class="fa fa-caret-right" aria-hidden="true"></i>About</p>
     </div>
     <div class="skills">
       <p><i class="fa fa-caret-right" aria-hidden="true"></i>Skills</p>
     </div>
-    <div class="projects">
-      <p><i class="fa fa-caret-right" aria-hidden="true"></i>Projects</p>
-    </div>
     <div class="contact">
       <p><i class="fa fa-caret-right" aria-hidden="true"></i>Contact</p>
     </div>
-  </div> <!-- Removed extra closing </div> tag -->
+  </div>
+</div> <!-- End of frontPage -->
 
+  <!-----------------START ABOUT---------------------------------->
+  <div class="aboutPage">
+    <div class="aboutTab">
+      <span id="close">&times;</span>
+      <p>Hello there! I'm Charlie Warner, a data analyst with a knack for crunching numbers and uncovering the narratives hidden within them. While data analysis is my profession, my main passion lies in cybersecurity and programming. I view web development as a fun hobby; this very website is a testament to that. It's hosted in the cloud, specifically on AWS, which was a deliberate choice to immerse myself in cloud services and web development. However, my focus isn't solely on building websites. I'm driven by a desire to learn a bit of everything, especially skills that make a well-rounded security analyst. This site is more than just a display of my current abilities; it reflects my journey through the dynamic and ever-expanding world of technology. Eager to learn, adapt, and grow, I dive into diverse areas like HTML, CSS, JavaScript, and more, all with an eye towards enhancing my cybersecurity expertise.<br>
+      <u> **TL;DR: Charlie Warner here, data analyst and cybersecurity enthusiast. This website, a fun dive into web development and AWS, is part of my journey to master diverse tech skills for a career in cybersecurity** </u></p>
+    </div>
+  </div>
+  <!-----------------End ABOUT---------------------------------->
+
+  <!--------------------------------START SKILLS----------------------------------------------------------->
+  <div class="skillPage">
+    <div class="skillTab">
+      <span class="close">&times;</span>
+      <div class="skillWords">
+        <p>In the realm of programming, I have honed a strong proficiency in Python and SQL, leveraging these languages to tackle complex data challenges with finesse. My expertise isn't limited to just coding; I'm equally adept in navigating across different operating systems. Whether it's the structured world of Windows, the intuitive environment of macOS, or the versatile landscape of Linux, I'm at home. In fact, Linux is my personal choice for devices. </p>
+      </div>
+    </div>
+  </div>
+
+  <!--------------------------------End SKILLS----------------------------------------------------------->
+
+  <!------------------------------START CONTACTS----------------------------------------------------------->
+  <div class="contactPage">
+    <div class="contactTab">
+      <span class="closing">&times;</span>
+      <div class="social">
+        
+      <!-- Commenting out social media links and images -->
+      <!-- <div class="facebook">
+        <a href="https://www.facebook.com/adam.lancon" target="blank"><img src="image_url"></a>
+      </div>
+      <div class="twitter">
+        <a href="https://twitter.com/adam_lancon" target="blank"><img src="image_url"></a>
+      </div>
+      <div class="linkedin">
+        <a href="https://www.linkedin.com/in/adam-lancon-aa5a60132/" target="blank"><img src="image_url"></a>
+      </div>
+      <div class="codepen">
+        <a href="https://codepen.io/AJLuigi09/" target="blank"><img src="image_url"></a>
+      </div>
+      <div class="github">
+        <a href="https://github.com/AJLuigi09" target="blank"><img src="image_url"></a>
+      </div> -->
+
+      <div class="words">
+        <p>If you are a potential client or employer then please feel free to contact me any time! Just make sure to include your name, your companies name, and what you're interested in. Thank you!!</p>
+      </div>
+
+      <!-- Commenting out resume link and image -->
+      <!-- <div class="resume">
+        <a href="#"><img src="image_url"></a><br>Resume
+      </div> -->
+      
+    </div>
+  </div>
