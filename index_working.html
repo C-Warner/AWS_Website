@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Charlie Warner</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Charlie Warner</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#Skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#certifications" onclick="toggleMenu()">Certifications</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/Headshot.jpg"Profile Pic" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Charlie Warner</h1>
+        <p class="section__text__p2">IT Professional</p>
+        
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/charlie-warner'">
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/C-Warner'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/Big_Bear.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Skills icon"
+                class="icon"
+              />
+              <h3>Skills</h3>
+              <p>3+ years <br />Information Technology</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+<p>Master of Science in Cybersecurity and Information Assurance<br />Western Governors University</p>
+</div>
+</div>
+<div class="text-container">
+  <p>
+    Welcome to my simple static website, hosted on AWS. As an IT professional—and especially as an aspiring cybersecurity specialist—I believe it's important to get hands-on experience with a variety of technologies and platforms. So I built this site to dive into HTML, CSS, JavaScript, and AWS services.
+  </p>
+  <br><br>
+  <p>
+    Through this project, I’ve gained practical experience with AWS CloudFront and S3, ensuring that static site content is served securely over HTTPS. I’ve also configured a custom domain using Route 53 to make the site more accessible and professional. Since it’s a static site, I manage updates using Git and track all changes in a GitHub repository. This project helped me get comfortable with version control and the AWS CLI on my local machine.
+  </p>
+  <br><br>
+  <p>
+    I’ll continue adding more as I learn and explore, but for now, thanks for visiting!
+  </p>
+</div> 
+        </p>
+        <br><br>
+       
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#Skills'"
+      />
+    </section>
+    <section id="Skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="Skills-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="Skills-sub-title">Technologies</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/Python.jpg"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/SQL.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Linux.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Linux</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/git.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/AWS.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>AWS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Windows.jpg"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Windows</h3>
+                  <p>Skillsd</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#certifications'"
+      />
+    </section>
+    <section id="certifications">
+      <p class="section__text__p1">Browse My</p>
+      <h1 class="title">Certifications</h1>
+      <div class="Skills-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container" style="margin: 0 auto;">
+            <div class="article-container">
+              <img src="./assets/Security.png" alt="Certification" class="project-img" />
+            </div>
+            <h2 class="Skills-sub-title project-title">CompTIA Security+</h2>
+            <p class="credential-id">Credential ID: 7MQ9KCFSGFFQ1E3K</p>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='http://verify.CompTIA.org'">
+                View Certification
+              </button>
+            </div>
+          </div>
+      <div class="details-container color-container" style="margin: 0 auto;">
+  <div class="article-container">
+    <img src="./assets/CySA.png" alt="Certification" class="project-img" />
+  </div>
+  <h2 class="Skills-sub-title project-title">CompTIA CySA+</h2>
+  <p class="credential-id">Credential ID: 5K8H892SYEFQ1QWG</p>
+  <div class="btn-container">
+    <button class="btn btn-color-2 project-btn" onclick="location.href='http://verify.CompTIA.org'">
+      View Certification
+    </button>
+  </div>
+</div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>    
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/charlie-warner">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#certifications">certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Charlie Warner. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
